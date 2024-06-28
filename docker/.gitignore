@@ -1,0 +1,6 @@
+/elk-config/elasticsearch/data
+/elk-config/kibana/data
+/elk-config/logstash/data
+/postgres/datadir
+/rabbitmq
+/redis/data

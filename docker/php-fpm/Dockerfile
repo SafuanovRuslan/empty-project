@@ -1,7 +1,7 @@
 FROM php:8.2-fpm
 
 RUN apt-get update
-RUN apt-get install -y wget git unzip libpq-dev libicu-dev libpng-dev libzip-dev libjpeg-dev libfreetype6-dev;
+RUN apt-get install -y wget git unzip libpq-dev libicu-dev libpng-dev libzip-dev libjpeg-dev libfreetype6-dev nodejs npm;
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug
 
